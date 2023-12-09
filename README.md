@@ -4,10 +4,15 @@
 
 ## What is Promtopia ?
 
-It is an Full-Stack app with NEXT.JS.
+It is an Full-Stack app with NEXT.JS and Typescript.
 It allows you to discover and sharing a different prompts.
 You can search about prompts, create prompts , modify prompts even delete prompts but before that you must be registered with google account.
 This app is Full-Stack with NEXT JS.
+
+- NEXT js
+- Typescript
+- Tailwind
+- MONGODB
 
 ## What did i use to build this application?
 
