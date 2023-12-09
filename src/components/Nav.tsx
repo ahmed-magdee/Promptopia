@@ -52,7 +52,7 @@ const Nav = () => {
             <Link href={"/profile"}>
               {session && (
                 <Image
-                  src={session?.user.image}
+                  src={session && `${session?.user?.image}`}
                   width={37}
                   height={37}
                   className="rounded-full"
@@ -83,7 +83,7 @@ const Nav = () => {
           <div className="flex">
             {session && (
               <Image
-                src={session.user?.image}
+                src={session && `${session?.user?.image}`}
                 width={37}
                 height={37}
                 className="rounded-full"
